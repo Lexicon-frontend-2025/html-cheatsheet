@@ -83,6 +83,20 @@ Semantiska HTML-element beskriver tydligt *vad innehållet är*, både för webb
 
 ---
 
+## 🪧 Landmarks
+
+| **Landmark**       | **HTML5-tagg**          | **ARIA-roll (om HTML-tagg saknas)** |
+| ------------------ | ----------------------- | ----------------------------------- |
+| Main content       | `<main>`                | `role="main"`                       |
+| Navigation         | `<nav>`                 | `role="navigation"`                 |
+| Header             | `<header>`              | `role="banner"`                     |
+| Footer             | `<footer>`              | `role="contentinfo"`                |
+| Search             | (t.ex. `<form>`)        | `role="search"`                     |
+| Complementary info | `<aside>`               | `role="complementary"`              |
+| Region/section     | `<section>` (med titel) | `role="region"`                     |
+
+---
+
 ## ✅ Tips för tillgänglighet & god semantik
 - **Använd `alt` på bilder** – kortfattad och beskrivande text.
 - **Rubriknivåer ska vara hierarkiska** – t.ex. `h1` → `h2` → `h3`.
